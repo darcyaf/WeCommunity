@@ -1,0 +1,11 @@
+.search-input{
+	background: url("./images/search.png") no-repeat scroll right center transparent;
+	background-size:auto 100%;
+}
+.btn{
+	vertical-align:middle;
+}
+.icon-image{
+	height:30px;
+	width:30px;
+}
