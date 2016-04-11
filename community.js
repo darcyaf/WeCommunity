@@ -6,7 +6,7 @@ define(function(require){
 		this.callParent();
 	};
 		Model.prototype.getImgUrl = function(imgUrl){
-		return require.toUrl("./img/"+imgUrl);
+		return require.toUrl("./images/"+imgUrl);
 	};
 	return Model;
 });

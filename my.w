@@ -2,13 +2,7 @@
 
 <div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window" component="$UI/system/components/justep/window/window" design="device:m;" xmlns:xlink="http://www.w3.org/1999/xlink">  
   <div component="$UI/system/components/justep/model/model" xid="model"/> 
-<resource xid="resource2"><require xid="require2" url="$UI/WeComm/js/background-blur"></require>
-  <require xid="require3" url="$UI/WeComm/js/jquery-1.11.0.min"></require>
-  <require xid="require4" url="$UI/WeComm/js/bootstrap.min"></require>
-  <require xid="require5" url="css!$UI/WeComm/css/bootstrap.min"></require>
-  <require xid="require6" url="css!$UI/WeComm/css/default"></require>
-  </resource>
-  <div xid="div1" style="width:100%;height:50%;" class="container">
+<div xid="div1" style="width:100%;height:50%;" class="container">
   
   <div class="avatar-holder" xid="holder">
    <svg version="1.1" width="478" height="380" id="blurred_7wuumsi6k" class="avatar-blur" viewBox="0 0 478 380" preserveAspectRatio="none" xid="default1">
@@ -19,7 +13,7 @@
     <div class="avatar" xid="div5">
      <img src="images/mypic.png" alt="" xid="image1"></img></div> </div> </div>
   </div>
-  <div xid="div2" style="vertical-align:middle;text-align:center;background-color:white;width:100%;height:50%;">
+  <div xid="div2" style="vertical-align:middle;text-align:center;width:100%;height:50%;background-color:transparent;">
    <div component="$UI/system/components/bootstrap/row/row" class="row" xid="row2" style="height:33%;width:100%;">
     <div class="col col-xs-4" xid="col5" style="height:100%;">
      <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-lg btn-icon-top" label="我的消息" xid="button9" icon="icon-android-mail" style="height:100%;width:100%;">
